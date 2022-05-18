@@ -1,0 +1,25 @@
+{
+  "extends": ["eslint-config-fuks"],
+  "parserOptions": {
+    "project": "packages/*/tsconfig.json",
+    "sourceType": "module"
+  },
+  "rules": {
+    "jsdoc/require-jsdoc": "off"
+  },
+  "overrides": [
+    {
+      "files": ["*.json"],
+      "parserOptions": {
+        "project": false
+      }
+    }
+  ],
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "project": "packages/*/tsconfig.json"
+      }
+    }
+  }
+}

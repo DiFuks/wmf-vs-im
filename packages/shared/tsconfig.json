@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.packages.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "preserve",
+    "paths": {
+      "@shared-app/*": ["./src/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}
