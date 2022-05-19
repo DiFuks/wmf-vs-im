@@ -19,9 +19,7 @@ const config: Configuration = {
     outputModule: true,
   },
   target: 'web',
-  plugins: [
-    new ReactRefreshWebpackPlugin(),
-  ],
+  plugins: [new ReactRefreshWebpackPlugin()],
   module: {
     rules: [
       {

@@ -1,7 +1,6 @@
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import { TsconfigPathsPlugin } from 'tsconfig-paths-webpack-plugin';
 import { Configuration, EnvironmentPlugin, container } from 'webpack';
-import ExternalTemplateRemotesPlugin from 'external-remotes-plugin';
 import 'webpack-dev-server';
 
 const { ModuleFederationPlugin } = container;
@@ -17,18 +16,7 @@ const config: Configuration = {
     new HtmlWebpackPlugin({
       templateContent: `
         <html lang="en">
-          <body>
-             <template id="single-spa-layout">
-                <single-spa-router>
-                    <route path="/" exact>
-                      <application name="sharedApp/App"></application>
-                    </route>
-                    <route path="/shared2">
-                      <application name="sharedApp2/App"></application>
-                    </route>
-                </single-spa-router>
-              </template>
-          </body>
+          <body></body>
         </html>
       `,
     }),
