@@ -1,9 +1,7 @@
 import { TsconfigPathsPlugin } from 'tsconfig-paths-webpack-plugin';
-import { Configuration, EnvironmentPlugin } from 'webpack';
+import { Configuration } from 'webpack';
 import ReactRefreshWebpackPlugin from '@pmmmwh/react-refresh-webpack-plugin';
 import 'webpack-dev-server';
-
-const appId = 'app';
 
 const config: Configuration = {
   mode: 'development',
@@ -22,9 +20,6 @@ const config: Configuration = {
   },
   target: 'web',
   plugins: [
-    new EnvironmentPlugin({
-      APP_ID: appId,
-    }),
     new ReactRefreshWebpackPlugin(),
   ],
   module: {

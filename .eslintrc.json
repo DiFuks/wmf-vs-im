@@ -5,7 +5,8 @@
     "sourceType": "module"
   },
   "rules": {
-    "jsdoc/require-jsdoc": "off"
+    "jsdoc/require-jsdoc": "off",
+    "unicorn/no-array-for-each": "off"
   },
   "overrides": [
     {

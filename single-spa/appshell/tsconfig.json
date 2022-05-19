@@ -4,8 +4,9 @@
     "baseUrl": ".",
     "lib": ["dom", "dom.iterable", "esnext"],
     "jsx": "preserve",
+    "noImplicitAny": false,
     "paths": {
-      "@shared/*": ["./src/*"]
+      "@spa-appshell/*": ["./src/*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"]

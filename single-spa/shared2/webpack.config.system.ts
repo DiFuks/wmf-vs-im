@@ -5,7 +5,7 @@ import 'webpack-dev-server';
 
 const config: Configuration = {
   mode: 'development',
-  entry: './src/App.tsx',
+  entry: './src/index.tsx',
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
     plugins: [new TsconfigPathsPlugin()],
@@ -28,7 +28,7 @@ const config: Configuration = {
     ],
   },
   devServer: {
-    port: 9_001,
+    port: 9_002,
     hot: true,
     host: 'localhost',
     headers: {

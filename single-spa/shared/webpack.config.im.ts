@@ -5,16 +5,20 @@ import 'webpack-dev-server';
 
 const config: Configuration = {
   mode: 'development',
-  entry: './src/App.tsx',
+  entry: './src/index.tsx',
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
     plugins: [new TsconfigPathsPlugin()],
   },
   output: {
     clean: true,
-    libraryTarget: 'system',
+    libraryTarget: 'module',
     filename: 'shared.js',
   },
+  experiments: {
+    outputModule: true,
+  },
+  target: 'web',
   plugins: [new ReactRefreshWebpackPlugin()],
   module: {
     rules: [

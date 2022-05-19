@@ -749,6 +749,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@reach/router@npm:^1.3.4":
+  version: 1.3.4
+  resolution: "@reach/router@npm:1.3.4"
+  dependencies:
+    create-react-context: 0.3.0
+    invariant: ^2.2.3
+    prop-types: ^15.6.1
+    react-lifecycles-compat: ^3.0.4
+  peerDependencies:
+    react: 15.x || 16.x || 16.4.0-alpha.0911da3
+    react-dom: 15.x || 16.x || 16.4.0-alpha.0911da3
+  checksum: f64372497e0464a9fdfd79283fec3f4fd01ee093f1599d8a8035e0a41fbce22113bfa46dcea63aa8b7b4e0796e916f134aa8e3fccd3974be397e7c19468de3c4
+  languageName: node
+  linkType: hard
+
 "@tootallnate/once@npm:2":
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
@@ -955,6 +970,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/parse5@npm:^6.0.0":
+  version: 6.0.3
+  resolution: "@types/parse5@npm:6.0.3"
+  checksum: ddb59ee4144af5dfcc508a8dcf32f37879d11e12559561e65788756b95b33e6f03ea027d88e1f5408f9b7bfb656bf630ace31a2169edf44151daaf8dd58df1b7
+  languageName: node
+  linkType: hard
+
 "@types/prop-types@npm:*":
   version: 15.7.5
   resolution: "@types/prop-types@npm:15.7.5"
@@ -973,6 +995,15 @@ __metadata:
   version: 1.2.4
   resolution: "@types/range-parser@npm:1.2.4"
   checksum: b7c0dfd5080a989d6c8bb0b6750fc0933d9acabeb476da6fe71d8bdf1ab65e37c136169d84148034802f48378ab94e3c37bb4ef7656b2bec2cb9c0f8d4146a95
+  languageName: node
+  linkType: hard
+
+"@types/reach__router@npm:^1.3.10":
+  version: 1.3.10
+  resolution: "@types/reach__router@npm:1.3.10"
+  dependencies:
+    "@types/react": "*"
+  checksum: fdcb761d3b8cd74530c00490a7b5b1868e82b742e05b03d8fc09d88cc135ec6377556bcc8b345bf0f3aa8c99259e6cecbccf912ef8c9da12611c274a5ffb3fa9
   languageName: node
   linkType: hard
 
@@ -1426,6 +1457,85 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@wmf-vs-im/spa-appshell@workspace:single-spa/appshell":
+  version: 0.0.0-use.local
+  resolution: "@wmf-vs-im/spa-appshell@workspace:single-spa/appshell"
+  dependencies:
+    "@babel/core": ^7.17.9
+    "@babel/preset-typescript": ^7.16.7
+    "@types/systemjs": ^6.1.1
+    "@types/webpack": ^5.28.0
+    babel-loader: ^8.2.4
+    external-remotes-plugin: ^1.0.0
+    html-webpack-plugin: ^5.5.0
+    single-spa: ^5.9.3
+    single-spa-layout: ^2.0.1
+    systemjs: ^6.12.1
+    ts-node: ^10.7.0
+    tsconfig-paths-webpack-plugin: ^3.5.2
+    typescript: ^4.6.3
+    webpack: ^5.72.0
+    webpack-cli: ^4.9.2
+    webpack-dev-server: ^4.8.1
+  languageName: unknown
+  linkType: soft
+
+"@wmf-vs-im/spa-shared2@workspace:single-spa/shared2":
+  version: 0.0.0-use.local
+  resolution: "@wmf-vs-im/spa-shared2@workspace:single-spa/shared2"
+  dependencies:
+    "@babel/core": ^7.17.9
+    "@babel/preset-react": ^7.16.7
+    "@babel/preset-typescript": ^7.16.7
+    "@pmmmwh/react-refresh-webpack-plugin": ^0.5.5
+    "@reach/router": ^1.3.4
+    "@types/reach__router": ^1.3.10
+    "@types/react": ^18.0.0
+    "@types/react-dom": ^18.0.0
+    "@types/webpack": ^5.28.0
+    babel-loader: ^8.2.4
+    html-webpack-plugin: ^5.5.0
+    react: ^18.0.0
+    react-dom: ^18.0.0
+    react-refresh: ^0.12.0
+    single-spa-react: ^4.6.1
+    ts-node: ^10.7.0
+    tsconfig-paths-webpack-plugin: ^3.5.2
+    typescript: ^4.6.3
+    webpack: ^5.72.0
+    webpack-cli: ^4.9.2
+    webpack-dev-server: ^4.8.1
+  languageName: unknown
+  linkType: soft
+
+"@wmf-vs-im/spa-shared@workspace:single-spa/shared":
+  version: 0.0.0-use.local
+  resolution: "@wmf-vs-im/spa-shared@workspace:single-spa/shared"
+  dependencies:
+    "@babel/core": ^7.17.9
+    "@babel/preset-react": ^7.16.7
+    "@babel/preset-typescript": ^7.16.7
+    "@pmmmwh/react-refresh-webpack-plugin": ^0.5.5
+    "@reach/router": ^1.3.4
+    "@types/reach__router": ^1.3.10
+    "@types/react": ^18.0.0
+    "@types/react-dom": ^18.0.0
+    "@types/webpack": ^5.28.0
+    babel-loader: ^8.2.4
+    html-webpack-plugin: ^5.5.0
+    react: ^18.0.0
+    react-dom: ^18.0.0
+    react-refresh: ^0.12.0
+    single-spa-react: ^4.6.1
+    ts-node: ^10.7.0
+    tsconfig-paths-webpack-plugin: ^3.5.2
+    typescript: ^4.6.3
+    webpack: ^5.72.0
+    webpack-cli: ^4.9.2
+    webpack-dev-server: ^4.8.1
+  languageName: unknown
+  linkType: soft
+
 "@xtuc/ieee754@npm:^1.2.0":
   version: 1.2.0
   resolution: "@xtuc/ieee754@npm:1.2.0"
@@ -1864,6 +1974,13 @@ __metadata:
   dependencies:
     fill-range: ^7.0.1
   checksum: e2a8e769a863f3d4ee887b5fe21f63193a891c68b612ddb4b68d82d1b5f3ff9073af066c343e9867a393fe4c2555dcb33e89b937195feb9c1613d259edfcd459
+  languageName: node
+  linkType: hard
+
+"browserslist-config-single-spa@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "browserslist-config-single-spa@npm:1.0.1"
+  checksum: 7857db70f4733237caeef2022a3662cf373ee83ab813904aaa0ae40626666b4c5c72488aedb833e92b622c54154c3f452647f5e70499950d05898d81dc0f7109
   languageName: node
   linkType: hard
 
@@ -2328,6 +2445,19 @@ __metadata:
     path-type: ^4.0.0
     yaml: ^1.10.0
   checksum: 4be63e7117955fd88333d7460e4c466a90f556df6ef34efd59034d2463484e339666c41f02b523d574a797ec61f4a91918c5b89a316db2ea2f834e0d2d09465b
+  languageName: node
+  linkType: hard
+
+"create-react-context@npm:0.3.0":
+  version: 0.3.0
+  resolution: "create-react-context@npm:0.3.0"
+  dependencies:
+    gud: ^1.0.0
+    warning: ^4.0.3
+  peerDependencies:
+    prop-types: ^15.0.0
+    react: ^0.14.0 || ^15.0.0 || ^16.0.0
+  checksum: e59b7a65671e59f5b11e06f67faadf0733ab6c33247d5631331aeb05450d180b8ae44d73817b9c02f1527654ba490ea3d3dd7320f8d6debb36776f10b0ae6a47
   languageName: node
   linkType: hard
 
@@ -3835,6 +3965,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gud@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "gud@npm:1.0.0"
+  checksum: 3e2eb37cf794364077c18f036d6aa259c821c7fd188f2b7935cb00d589d82a41e0ebb1be809e1a93679417f62f1ad0513e745c3cf5329596e489aef8c5e5feae
+  languageName: node
+  linkType: hard
+
 "handle-thing@npm:^2.0.0":
   version: 2.0.1
   resolution: "handle-thing@npm:2.0.1"
@@ -4202,6 +4339,15 @@ __metadata:
   version: 2.2.0
   resolution: "interpret@npm:2.2.0"
   checksum: f51efef7cb8d02da16408ffa3504cd6053014c5aeb7bb8c223727e053e4235bf565e45d67028b0c8740d917c603807aa3c27d7bd2f21bf20b6417e2bb3e5fd6e
+  languageName: node
+  linkType: hard
+
+"invariant@npm:^2.2.3":
+  version: 2.2.4
+  resolution: "invariant@npm:2.2.4"
+  dependencies:
+    loose-envify: ^1.0.0
+  checksum: cc3182d793aad82a8d1f0af697b462939cb46066ec48bbf1707c150ad5fad6406137e91a262022c269702e01621f35ef60269f6c0d7fd178487959809acdfb14
   languageName: node
   linkType: hard
 
@@ -4746,7 +4892,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
+"loose-envify@npm:^1.0.0, loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -5791,6 +5937,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"parse5@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "parse5@npm:6.0.1"
+  checksum: 7d569a176c5460897f7c8f3377eff640d54132b9be51ae8a8fa4979af940830b2b0c296ce75e5bd8f4041520aadde13170dbdec44889975f906098ea0002f4bd
+  languageName: node
+  linkType: hard
+
 "parseurl@npm:~1.3.2, parseurl@npm:~1.3.3":
   version: 1.3.3
   resolution: "parseurl@npm:1.3.3"
@@ -5959,7 +6112,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.8.1":
+"prop-types@npm:^15.6.1, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -6047,6 +6200,13 @@ __metadata:
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
+  languageName: node
+  linkType: hard
+
+"react-lifecycles-compat@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "react-lifecycles-compat@npm:3.0.4"
+  checksum: a904b0fc0a8eeb15a148c9feb7bc17cec7ef96e71188280061fc340043fd6d8ee3ff233381f0e8f95c1cf926210b2c4a31f38182c8f35ac55057e453d6df204f
   languageName: node
   linkType: hard
 
@@ -6639,6 +6799,45 @@ __metadata:
   version: 3.0.7
   resolution: "signal-exit@npm:3.0.7"
   checksum: a2f098f247adc367dffc27845853e9959b9e88b01cb301658cfe4194352d8d2bb32e18467c786a7fe15f1d44b233ea35633d076d5e737870b7139949d1ab6318
+  languageName: node
+  linkType: hard
+
+"single-spa-layout@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "single-spa-layout@npm:2.0.1"
+  dependencies:
+    "@types/parse5": ^6.0.0
+    merge2: ^1.4.1
+    parse5: ^6.0.1
+    single-spa: ^6.0.0-beta.1
+  checksum: 27e723afe1a1148f24cabfacfd88fce0d84361dae8d018b1699847e96f47a2efd22f3eb767fcb367a96f130611ee448f34cb54ef347d976f6a230a293ca9a57a
+  languageName: node
+  linkType: hard
+
+"single-spa-react@npm:^4.6.1":
+  version: 4.6.1
+  resolution: "single-spa-react@npm:4.6.1"
+  dependencies:
+    browserslist-config-single-spa: ^1.0.1
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: "*"
+  checksum: 12383d3b1dfc328efb7386f1094cbd255cf7e4785685416cd854ff3e1ba5da7828a2edaada94859593c8bc0405c5982c9655d1f51b5b67a2a94a6c1908983428
+  languageName: node
+  linkType: hard
+
+"single-spa@npm:^5.9.3":
+  version: 5.9.3
+  resolution: "single-spa@npm:5.9.3"
+  checksum: f262be4624519cd7dc01c04d51d95326fa5e6ddf425d6ceddfcf121d0747765b284c87540f9c7d9cfdd3fda9395c0a41149360832a5afdf5eca09af81bff4a8f
+  languageName: node
+  linkType: hard
+
+"single-spa@npm:^6.0.0-beta.1":
+  version: 6.0.0-beta.2
+  resolution: "single-spa@npm:6.0.0-beta.2"
+  checksum: e67114bc598e048d17ce603346ff6c50793230895e7f84de4b789e124ccc4fc8513f9b284d69d7f8f5025ef5e85306a92c57320e8992f5c0f0c2b8960de7d35f
   languageName: node
   linkType: hard
 
@@ -7511,6 +7710,15 @@ __metadata:
     unist-util-stringify-position: ^2.0.0
     vfile-message: ^2.0.0
   checksum: ee5726e10d170472cde778fc22e0f7499caa096eb85babea5d0ce0941455b721037ee1c9e6ae506ca2803250acd313d0f464328ead0b55cfe7cb6315f1b462d6
+  languageName: node
+  linkType: hard
+
+"warning@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "warning@npm:4.0.3"
+  dependencies:
+    loose-envify: ^1.0.0
+  checksum: 4f2cb6a9575e4faf71ddad9ad1ae7a00d0a75d24521c193fa464f30e6b04027bd97aa5d9546b0e13d3a150ab402eda216d59c1d0f2d6ca60124d96cd40dfa35c
   languageName: node
   linkType: hard
 

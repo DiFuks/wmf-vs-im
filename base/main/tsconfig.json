@@ -6,7 +6,7 @@
     "jsx": "preserve",
     "noImplicitAny": false,
     "paths": {
-      "@wmf/*": ["./src/*"]
+      "@main/*": ["./src/*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"]

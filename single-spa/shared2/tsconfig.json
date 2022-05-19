@@ -5,7 +5,7 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "jsx": "preserve",
     "paths": {
-      "@shared/*": ["./src/*"]
+      "@spa-shared2/*": ["./src/*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"]

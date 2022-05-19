@@ -1,7 +1,7 @@
 import { createRoot } from 'react-dom/client';
 import React from 'react';
 
-import { App } from '@shared/App';
+import { App } from '@spa-shared/App';
 
 const appId = process.env.APP_ID;
 

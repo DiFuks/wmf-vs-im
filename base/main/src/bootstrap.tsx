@@ -1,7 +1,7 @@
 import { createRoot } from 'react-dom/client';
 import React from 'react';
 
-import { App } from '@wmf/App';
+import { App } from '@main/App';
 
 const appId = process.env.APP_ID;
 

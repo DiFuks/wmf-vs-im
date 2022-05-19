@@ -9,6 +9,9 @@
     "start:wmf": "yarn workspaces foreach --parallel --interlaced --verbose run start:wmf",
     "start:im": "yarn workspaces foreach --parallel --interlaced --verbose run start:im",
     "start:system": "yarn workspaces foreach --parallel --interlaced --verbose run start:system",
+    "start:spa:wmf": "yarn workspaces foreach --parallel --interlaced --verbose run start:spa:wmf",
+    "start:spa:im": "yarn workspaces foreach --parallel --interlaced --verbose run start:spa:im",
+    "start:spa:system": "yarn workspaces foreach --parallel --interlaced --verbose run start:spa:system",
     "lint:fix": "eslint \"{**/*,*}.{ts,tsx,json}\" --fix"
   },
   "main": "index.js",
