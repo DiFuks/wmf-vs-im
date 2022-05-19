@@ -14,13 +14,9 @@ const config: Configuration = {
   },
   output: {
     clean: true,
-    libraryTarget: 'module',
+    libraryTarget: 'system',
     filename: 'shared.js',
   },
-  experiments: {
-    outputModule: true,
-  },
-  target: 'web',
   plugins: [
     new EnvironmentPlugin({
       APP_ID: appId,

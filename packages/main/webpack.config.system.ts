@@ -1,3 +1,4 @@
+import HtmlWebpackPlugin from 'html-webpack-plugin';
 import { TsconfigPathsPlugin } from 'tsconfig-paths-webpack-plugin';
 import { Configuration, EnvironmentPlugin } from 'webpack';
 import ReactRefreshWebpackPlugin from '@pmmmwh/react-refresh-webpack-plugin';
@@ -7,23 +8,32 @@ const appId = 'app';
 
 const config: Configuration = {
   mode: 'development',
-  entry: './src/App.tsx',
+  entry: './src/index.tsx',
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
     plugins: [new TsconfigPathsPlugin()],
   },
-  output: {
-    clean: true,
-    libraryTarget: 'module',
-    filename: 'shared.js',
-  },
-  experiments: {
-    outputModule: true,
-  },
-  target: 'web',
   plugins: [
+    new HtmlWebpackPlugin({
+      inject: 'body',
+      templateContent: `
+        <html lang="en">
+          <script type="systemjs-importmap">
+            {
+              "imports": {
+                "sharedApp/App": "http://localhost:9001/shared.js"
+              }
+            }
+          </script>
+          <body>
+            <div id="${appId}"></div>
+          </body>
+        </html>
+      `,
+    }),
     new EnvironmentPlugin({
       APP_ID: appId,
+      TARGET: 'system',
     }),
     new ReactRefreshWebpackPlugin(),
   ],
@@ -39,12 +49,8 @@ const config: Configuration = {
     ],
   },
   devServer: {
-    port: 9_001,
+    port: 9_000,
     hot: true,
-    host: 'localhost',
-    headers: {
-      'Access-Control-Allow-Origin': 'http://localhost:9000',
-    },
   },
 };
 

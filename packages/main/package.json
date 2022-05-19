@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start:wmf": "webpack serve --config webpack.config.wmf.ts",
-    "start:im": "webpack serve --config webpack.config.im.ts"
+    "start:im": "webpack serve --config webpack.config.im.ts",
+    "start:system": "webpack serve --config webpack.config.system.ts"
   },
   "dependencies": {
     "@babel/core": "^7.17.9",
