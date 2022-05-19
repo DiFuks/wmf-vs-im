@@ -2,7 +2,8 @@
   "name": "wmf-vs-im",
   "version": "1.0.0",
   "workspaces": [
-    "packages/*"
+    "base/*",
+    "single-spa/*"
   ],
   "scripts": {
     "start:wmf": "yarn workspaces foreach --parallel --interlaced --verbose run start:wmf",

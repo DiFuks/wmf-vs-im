@@ -1373,9 +1373,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wmf-vs-im/main@workspace:packages/main":
+"@wmf-vs-im/main@workspace:base/main":
   version: 0.0.0-use.local
-  resolution: "@wmf-vs-im/main@workspace:packages/main"
+  resolution: "@wmf-vs-im/main@workspace:base/main"
   dependencies:
     "@babel/core": ^7.17.9
     "@babel/preset-react": ^7.16.7
@@ -1401,9 +1401,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@wmf-vs-im/shared@workspace:packages/shared":
+"@wmf-vs-im/shared@workspace:base/shared":
   version: 0.0.0-use.local
-  resolution: "@wmf-vs-im/shared@workspace:packages/shared"
+  resolution: "@wmf-vs-im/shared@workspace:base/shared"
   dependencies:
     "@babel/core": ^7.17.9
     "@babel/preset-react": ^7.16.7
@@ -1910,7 +1910,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cacache@npm:^16.0.2":
+"cacache@npm:^16.1.0":
   version: 16.1.0
   resolution: "cacache@npm:16.1.0"
   dependencies:
@@ -4799,11 +4799,11 @@ __metadata:
   linkType: hard
 
 "make-fetch-happen@npm:^10.0.3":
-  version: 10.1.3
-  resolution: "make-fetch-happen@npm:10.1.3"
+  version: 10.1.4
+  resolution: "make-fetch-happen@npm:10.1.4"
   dependencies:
     agentkeepalive: ^4.2.1
-    cacache: ^16.0.2
+    cacache: ^16.1.0
     http-cache-semantics: ^4.1.0
     http-proxy-agent: ^5.0.0
     https-proxy-agent: ^5.0.0
@@ -4818,7 +4818,7 @@ __metadata:
     promise-retry: ^2.0.1
     socks-proxy-agent: ^6.1.1
     ssri: ^9.0.0
-  checksum: 14b9bc5fb65a1a1f53b4579c947d1ebdb18db71eb0b35a2eab612e9642a14127917528fe4ffb2c37aaa0d27dfd7507e4044e6e2e47b43985e8fa18722f535b8f
+  checksum: 9661c146dbfb917254253c88fabab9dad32cbcb4caede888958164a25b987a6d782413d5209333ce4918af403812fd9f01a038cb3b4f2fdf76cca4b1223fbc2b
   languageName: node
   linkType: hard
 
@@ -7574,8 +7574,8 @@ __metadata:
   linkType: hard
 
 "webpack-dev-middleware@npm:^5.3.1":
-  version: 5.3.2
-  resolution: "webpack-dev-middleware@npm:5.3.2"
+  version: 5.3.3
+  resolution: "webpack-dev-middleware@npm:5.3.3"
   dependencies:
     colorette: ^2.0.10
     memfs: ^3.4.3
@@ -7584,7 +7584,7 @@ __metadata:
     schema-utils: ^4.0.0
   peerDependencies:
     webpack: ^4.0.0 || ^5.0.0
-  checksum: a869a4b0f1c4e6dbb8d5037158cebe67dc4d3e4949f3d95db1036e78d77e3078d4ff491b75073c45f9fb002b0dcaa98ddb7c1e0e547cd97a6b8ea433bd656ef3
+  checksum: dd332cc6da61222c43d25e5a2155e23147b777ff32fdf1f1a0a8777020c072fbcef7756360ce2a13939c3f534c06b4992a4d659318c4a7fe2c0530b52a8a6621
   languageName: node
   linkType: hard
 
