@@ -15,26 +15,7 @@ const config: Configuration = {
       inject: 'body',
       templateContent: `
         <html lang="en">
-          <script type="importmap">
-            {
-              "imports": {
-                "sharedApp/App": "http://localhost:9001/shared.js",
-                "sharedApp2/App": "http://localhost:9002/shared.js"
-              }
-            }
-          </script>
-          <body>
-             <template id="single-spa-layout">
-                <single-spa-router>
-                    <route path="/" exact>
-                      <application name="sharedApp/App"></application>
-                    </route>
-                    <route path="/shared2">
-                      <application name="sharedApp2/App"></application>
-                    </route>
-                </single-spa-router>
-              </template>
-          </body>
+          <body></body>
         </html>
       `,
     }),
