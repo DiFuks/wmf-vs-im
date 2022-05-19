@@ -38,7 +38,6 @@ const config: Configuration = {
     new ModuleFederationPlugin({
       name: 'wmf',
     }),
-    new ExternalTemplateRemotesPlugin(),
   ],
   module: {
     rules: [

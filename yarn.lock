@@ -1468,6 +1468,7 @@ __metadata:
     babel-loader: ^8.2.4
     external-remotes-plugin: ^1.0.0
     html-webpack-plugin: ^5.5.0
+    mf-dynamic-remote-component: ^1.2.0
     single-spa: ^5.9.3
     single-spa-layout: ^2.0.1
     systemjs: ^6.12.1
@@ -5081,6 +5082,13 @@ __metadata:
   version: 1.1.2
   resolution: "methods@npm:1.1.2"
   checksum: 0917ff4041fa8e2f2fda5425a955fe16ca411591fbd123c0d722fcf02b73971ed6f764d85f0a6f547ce49ee0221ce2c19a5fa692157931cecb422984f1dcd13a
+  languageName: node
+  linkType: hard
+
+"mf-dynamic-remote-component@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "mf-dynamic-remote-component@npm:1.2.0"
+  checksum: bc6326e55c251ba48ae7f360da3b8acc585bf0a98098d247a1213ab5cb28f32855c981462eb31f0c9994ff4b5cb0d60158365ff7ab9de734bebd7501637b9565
   languageName: node
   linkType: hard
 
