@@ -5,7 +5,7 @@ import 'webpack-dev-server';
 
 const config: Configuration = {
   mode: 'development',
-  entry: './src/index.tsx',
+  entry: './src/singleSpa.tsx',
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
     plugins: [new TsconfigPathsPlugin()],
