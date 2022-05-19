@@ -37,10 +37,6 @@ const config: Configuration = {
     }),
     new ModuleFederationPlugin({
       name: 'wmf',
-      remotes: {
-        sharedApp: 'shared1@[sharedAppUrl]/shared.js',
-        sharedApp2: 'shared2@[sharedApp2Url]/shared.js',
-      },
     }),
     new ExternalTemplateRemotesPlugin(),
   ],
