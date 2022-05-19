@@ -6,6 +6,9 @@ import {
 import { registerApplication, start } from 'single-spa';
 import 'systemjs';
 
+window.sharedAppUrl = 'http://localhost:9001';
+window.sharedApp2Url = 'http://localhost:9002';
+
 const routes = constructRoutes(document.querySelector('#single-spa-layout'));
 const applications = constructApplications({
   routes,
@@ -16,6 +19,10 @@ const applications = constructApplications({
 
     if (process.env.TARGET === 'im') {
       return import(/* webpackIgnore: true */ name);
+    }
+
+    if (process.env.TARGET === 'wmf') {
+      return import(name);
     }
 
     throw new Error('Target is not defined');

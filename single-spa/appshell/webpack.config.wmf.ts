@@ -8,7 +8,7 @@ const { ModuleFederationPlugin } = container;
 
 const config: Configuration = {
   mode: 'development',
-  entry: './src/index.wmf.ts',
+  entry: './src/index.ts',
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
     plugins: [new TsconfigPathsPlugin()],
